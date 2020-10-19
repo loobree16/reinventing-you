@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+header,
+footer,
+nav,
+section {
+  display: block;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgba(255, 255, 255, 0.65);
+  color: black;
+}
+
+.logo {
+  width: 50px;
+  position: absolute;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+/*hamburger menu*/
+#menu-wrapper ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+#menu-wrapper li a {
+  display: block;
+  color: #414141;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+#menu-wrapper li a:hover,
+#menu-wrapper .menu-btn:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#menu-wrapper .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+/*menu icon*/
+#menu-wrapper .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding-top: 25px;
+  padding-right: 20px;
+  position: relative;
+  user-select: none;
+}
+
+#menu-wrapper .menu-icon .navicon {
+  background: #fff;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background 0.2s ease-out;
+  width: 18px;
+}
+
+#menu-wrapper .menu-icon .navicon:before,
+#menu-wrapper .menu-icon .navicon:after {
+  background: black;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+
+#menu-wrapper .menu-icon .navicon:before {
+  top: 5px;
+}
+
+#menu-wrapper .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/*menu btn*/
+#menu-wrapper .menu-btn {
+  display: none;
+}
+
+#menu-wrapper .menu-btn:checked ~ .menu {
+  max-height: 340px;
+}
+#menu-wrapper .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+#menu-wrapper .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+#menu-wrapper .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+#menu-wrapper .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+#menu-wrapper .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+/*header*/
+header {
+  margin: 20px;
+  margin-top: 75px;
+}
+h1.title {
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em;
+  margin-bottom: 1em;
+  font-size: 30px;
+}
+p.intro {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 40em;
+}
+
+.social {
+  width: 11em;
+  margin: 0 auto;
+
+  padding: 0.5em;
+}
+.social img {
+  width: 2em;
+}
+
+/*navigation*/
+#nav {
+  margin: 0 auto;
+  margin-bottom: 1em;
+  width: 75em;
+}
+#nav a {
+  font-size: 30px;
+  margin: 50px;
+  color: #a7a7a7;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+li {
+  display: inline;
+}
+a {
+  text-decoration: none;
+  color: black;
+  margin: 5px;
+}

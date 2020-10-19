@@ -1,0 +1,54 @@
+#border {
+  border: 2px black solid;
+  width: 75em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+}
+
+#main {
+  margin: auto;
+  width: 71em;
+  padding: 2em;
+  background-color: #a7a7a7;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.grid-item {
+  padding: 20px;
+}
+.grid-item p {
+  text-align: center;
+  width: 500px;
+}
+
+#main img {
+  width: 300px;
+}
+/*content*/
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 20px;
+}
+
+/*footer*/
+#footer {
+  text-align: center;
+  padding: 50px;
+}
+
+/*Mobile*/
+.mobile {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  #wrapper {
+    display: none;
+  }
+  .mobile {
+    display: block;
+    text-align: center;
+  }
+}

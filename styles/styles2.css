@@ -1,0 +1,60 @@
+#border {
+  border: 2px black solid;
+  width: 75em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+}
+/*main content*/
+
+#main2 img {
+  width: 300px;
+}
+/*content, about*/
+#main2 {
+  margin: auto;
+  width: 71em;
+  padding: 2em;
+  background-color: #a7a7a7;
+}
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 20px;
+}
+
+#main2 h2 {
+  width: 10em;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 25px;
+}
+h3 {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#resources {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+/*footer*/
+#footer {
+  text-align: center;
+  padding: 50px;
+}
+
+/*Mobile*/
+.mobile {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  #wrapper {
+    display: none;
+  }
+  .mobile {
+    display: block;
+    text-align: center;
+  }
+}
