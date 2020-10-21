@@ -16,10 +16,19 @@
 }
 .grid-item {
   padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  border-bottom: 2px black solid;
 }
 .grid-item p {
-  text-align: center;
   width: 500px;
+  margin: 20px;
+}
+h2 {
+  font-size: 20px;
+}
+.learn {
+  padding: 10px;
 }
 
 #main img {
