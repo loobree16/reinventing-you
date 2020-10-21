@@ -57,4 +57,68 @@ h3 {
     display: block;
     text-align: center;
   }
+  .logo-m {
+    width: 5em;
+  }
+  .mobile p {
+    width: 25em;
+    margin: 0 auto;
+  }
+  .social-m {
+    width: 11em;
+    margin: 0 auto;
+
+    padding: 0.5em;
+  }
+  .social-m img {
+    width: 2em;
+  }
+
+  .hide {
+    max-height: 0 !important;
+  }
+  .dropdown {
+    background: #a7a7a7;
+    width: 100%;
+    margin-bottom: 1em;
+    height: 60px;
+    color: white;
+  }
+  .dropdown .title {
+    margin: 0 auto;
+    font-size: 20px;
+    padding-top: 18px;
+  }
+  .dropdown .title:hover {
+    color: black;
+    text-decoration: underline;
+  }
+
+  .dropdown .menu {
+    transition: max-height 0.5s ease-out;
+    max-height: 30em;
+
+    background-color: #a7a7a7;
+    overflow: hidden;
+    position: relative;
+  }
+  .dropdown .menu .option {
+    margin: 10px;
+  }
+  .dropdown .menu .option:hover {
+    background: rgba(0, 0, 0, 0.2);
+  }
+  .dropdown .menu a {
+    font-size: 20px;
+  }
+  .pointerCursor:hover {
+    cursor: pointer;
+  }
+  .rotate-90 {
+    transform: rotate(90deg);
+  }
+
+  .content img {
+    width: 15em;
+  }
 }

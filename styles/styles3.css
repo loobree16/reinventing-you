@@ -54,4 +54,24 @@
     display: block;
     text-align: center;
   }
+  .logo-m {
+    width: 5em;
+  }
+  .mobile p {
+    width: 25em;
+    margin: 0 auto;
+  }
+  .social-m {
+    width: 11em;
+    margin: 0 auto;
+
+    padding: 0.5em;
+  }
+  .social-m img {
+    width: 2em;
+  }
+
+  .content img {
+    width: 15em;
+  }
 }
