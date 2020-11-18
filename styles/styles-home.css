@@ -1,5 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Trocchi&display=swap");
+
 #border {
-  border: 2px black solid;
+  border: 2px #7b92aa solid;
+  background-color: #fcfcfc;
   width: 75em;
   margin-left: auto;
   margin-right: auto;
@@ -10,29 +14,45 @@
   margin: auto;
   width: 71em;
   padding: 2em;
-  background-color: #a7a7a7;
+
   display: grid;
   grid-template-columns: auto auto;
 }
 .grid-item {
   padding: 20px;
-  margin-top: 20px;
+  height: 350px;
   text-align: center;
-  border-bottom: 2px black solid;
 }
 .grid-item p {
   width: 500px;
   margin: 20px;
+  margin-left: 80px;
+  text-align: left;
+}
+.grid-item h2 {
+  font-family: "Trocchi", serif;
+  color: #37667e;
 }
 h2 {
-  font-size: 20px;
+  font-size: 25px;
 }
 .learn {
   padding: 10px;
+  background-color: #a4cce3;
+  color: #37667e;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  border-radius: 3px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.learn:hover {
+  background-color: #37667e;
+  color: #dec4d6;
 }
 
 #main img {
-  width: 300px;
+  width: 400px;
 }
 /*content*/
 
@@ -53,7 +73,7 @@ h2 {
 .mobile {
   display: none;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   #wrapper {
     display: none;
   }
@@ -62,7 +82,7 @@ h2 {
     text-align: center;
   }
   .logo-m {
-    width: 5em;
+    width: 8em;
   }
   .mobile p {
     width: 25em;
@@ -82,27 +102,27 @@ h2 {
     max-height: 0 !important;
   }
   .dropdown {
-    background: #a7a7a7;
+    background: #dec4d6;
     width: 100%;
     margin-bottom: 1em;
     height: 60px;
-    color: white;
+    color: #37667e;
   }
   .dropdown .title {
     margin: 0 auto;
     font-size: 20px;
     padding-top: 18px;
+    font-family: "Trocchi", serif;
+    width: 100%;
   }
   .dropdown .title:hover {
-    color: black;
     text-decoration: underline;
   }
 
   .dropdown .menu {
     transition: max-height 0.5s ease-out;
     max-height: 30em;
-
-    background-color: #a7a7a7;
+    background-color: #dec4d6;
     overflow: hidden;
     position: relative;
   }
@@ -110,10 +130,10 @@ h2 {
     margin: 10px;
   }
   .dropdown .menu .option:hover {
-    background: rgba(0, 0, 0, 0.2);
   }
   .dropdown .menu a {
     font-size: 20px;
+    color: #37667e;
   }
   .pointerCursor:hover {
     cursor: pointer;

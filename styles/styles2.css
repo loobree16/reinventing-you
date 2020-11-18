@@ -1,5 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Trocchi&display=swap");
+
 #border {
-  border: 2px black solid;
+  border: 2px #7b92aa solid;
+  background-color: #fcfcfc;
   width: 75em;
   margin-left: auto;
   margin-right: auto;
@@ -9,13 +13,13 @@
 
 #main2 img {
   width: 300px;
+  margin-top: 20px;
 }
 /*content, about*/
 #main2 {
   margin: auto;
   width: 71em;
   padding: 2em;
-  background-color: #a7a7a7;
 }
 .grid {
   display: grid;
@@ -24,16 +28,23 @@
 }
 
 #main2 h2 {
-  width: 10em;
+  width: 20em;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
   font-size: 25px;
+  font-family: "Trocchi", serif;
+  color: #37667e;
 }
 h3 {
   font-size: 20px;
-  margin-left: 10px;
-}
 
+  font-family: "Trocchi", serif;
+  color: #37667e;
+}
+p {
+  width: 600px;
+}
 #resources {
   display: grid;
   grid-template-columns: auto auto auto;

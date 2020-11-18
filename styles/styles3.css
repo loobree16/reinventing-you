@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Trocchi&display=swap");
+
 #border {
-  border: 2px black solid;
+  border: 2px #37667e solid;
   width: 75em;
   margin-left: auto;
   margin-right: auto;
@@ -8,15 +11,16 @@
 /*main content*/
 
 #main2 img {
-  width: 300px;
+  width: 400px;
 }
 /*content, about*/
 #main2 {
   margin: auto;
   width: 71em;
   padding: 2em;
-  background-color: #a7a7a7;
-  border: 2px black solid;
+  background-color: #fcfcfc;
+  border: 2px #37667e solid;
+  font-family: "Open Sans", sans-serif;
 }
 .grid {
   display: grid;
@@ -31,12 +35,18 @@
 }
 h3 {
   font-size: 20px;
+  font-family: "Trocchi", serif;
+  color: #37667e;
 }
-#main2 h2 {
+h2 {
   width: 10em;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10px;
   font-size: 25px;
+  font-family: "Trocchi", serif;
+  color: #37667e;
 }
 
 #resources {
@@ -69,13 +79,13 @@ textarea {
   margin-top: 8px;
 }
 input[type="submit"] {
-  background-color: black;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+  padding: 10px;
+  background-color: #a4cce3;
+  color: #37667e;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  border-radius: 3px;
+  margin-top: 15px;
 }
 
 /*footer*/
@@ -97,7 +107,7 @@ input[type="submit"] {
     text-align: center;
   }
   .logo-m {
-    width: 5em;
+    width: 8em;
   }
   .mobile p {
     width: 25em;

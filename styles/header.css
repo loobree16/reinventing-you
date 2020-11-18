@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Trocchi&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -19,13 +21,13 @@ section {
 }
 
 body {
-  font-family: sans-serif;
-  background-color: rgba(255, 255, 255, 0.65);
+  font-family: "Open Sans", sans-serif;
+  background-color: #f5f8fc;
   color: black;
 }
 
 .logo {
-  width: 50px;
+  width: 80px;
   position: absolute;
   padding-top: 15px;
   padding-left: 20px;
@@ -66,17 +68,17 @@ body {
 }
 
 #menu-wrapper .menu-icon .navicon {
-  background: #fff;
+  background: #f5f8fc;
   display: block;
-  height: 2px;
+  height: 4px;
   position: relative;
   transition: background 0.2s ease-out;
-  width: 18px;
+  width: 20px;
 }
 
 #menu-wrapper .menu-icon .navicon:before,
 #menu-wrapper .menu-icon .navicon:after {
-  background: black;
+  background: #7b92aa;
   content: "";
   display: block;
   height: 100%;
@@ -118,13 +120,14 @@ body {
 /*header*/
 header {
   margin: 20px;
-  margin-top: 75px;
+  margin-top: 40px;
 }
-h1.title {
+.title {
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 8em;
-  margin-bottom: 1em;
+  margin-bottom: 20px;
   font-size: 30px;
 }
 p.intro {
@@ -132,16 +135,17 @@ p.intro {
   margin-right: auto;
   margin-bottom: 20px;
   width: 40em;
+  text-align: center;
 }
 
 .social {
-  width: 11em;
+  width: 170px;
   margin: 0 auto;
-
   padding: 0.5em;
 }
 .social img {
   width: 2em;
+  margin: 5px;
 }
 
 /*navigation*/
@@ -149,11 +153,14 @@ p.intro {
   margin: 0 auto;
   margin-bottom: 1em;
   width: 75em;
+  font-family: "Trocchi", serif;
+  padding-bottom: 20px;
+  border-bottom: 2px #7b92aa solid;
 }
 #nav a {
-  font-size: 30px;
-  margin: 50px;
-  color: #a7a7a7;
+  font-size: 20px;
+  margin: 35px;
+  color: #7b92aa;
 }
 
 ul {
