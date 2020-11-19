@@ -163,12 +163,14 @@ p.intro {
   color: #7b92aa;
 }
 
-ul {
+#menu-wrapper ul,
+#nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
 }
-li {
+#menu-wrapper li,
+#nav li {
   display: inline;
 }
 a {
